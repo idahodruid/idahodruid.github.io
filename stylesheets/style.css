@@ -4,10 +4,9 @@ body {
     background-attachment: fixed; /*edit*/
 }
 
+
 h1 {
     color: red;
-}
-h1 {
     font-family: 'jetbrains_monothin';
     font-weight: 100;
     font-size: 5.8vw;
