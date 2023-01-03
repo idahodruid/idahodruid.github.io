@@ -7,7 +7,14 @@ body {
 h1 {
     color: blue;
 }
-
+div.title {
+    font-family: 'jetbrains_monoregular';
+    text-align: center;
+    margin: auto;
+    margin-top: 7vw;
+    padding: 1em;
+    min-height: 75%;
+}
 .List1 {
     background-color: black;
     color: white;
