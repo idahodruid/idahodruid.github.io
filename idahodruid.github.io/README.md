@@ -1,1 +1,0 @@
-# idahodruid.github.io
