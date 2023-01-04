@@ -4,7 +4,7 @@ body {
 }
 body {
     
-    background: linear-gradient(to right top, rgb(0,0,0) white 70%);*/
+    background: linear-gradient(to right top, rgb(211,211,211) white 95%);
     background-attachment: fixed; /*edit*/
 }
 body, html {
@@ -37,6 +37,13 @@ body, html {
     padding: 0;
     background-color: rgb(15,15,15);
 }
+.outer-footer {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(15,15,15);
+}
 
 .quick-links {
     display: flex;
@@ -47,12 +54,13 @@ body, html {
     justify-content: center;
 }
 
-    .quick-links ul {
-        padding: 0px;
-        display: flex;
-        height: 30px;
-        margin: auto;
-    }
+.quick-links ul {
+    padding: 0px;
+    display: flex;
+    height: 30px;
+    margin: auto;
+
+}
 
 .quick-items a:hover {
     color: slategrey;
