@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\downloads",
+    "\\html",
+    "\\stylesheets"
   ],
-  "SelectedNode": "\\C:\\Users\\Rowan\\Source\\Repos\\idahodruid.github.io",
+  "SelectedNode": "\\html\\papers.html",
   "PreviewInSolutionExplorer": false
 }
