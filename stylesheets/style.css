@@ -67,7 +67,7 @@ body, html {
 }
 
 .quick-items a {
-    padding: 0px 30px 0px 30px;
+    padding: 10px 15px 10px 15px;
     text-align: center;
     font-size: 18px;
     color: white;
@@ -81,7 +81,7 @@ body, html {
 .quick-items-current a {
     color: white;
     text-decoration: overline;
-    padding: 0px 15px 0px 15px;
+    padding: 10px 15px 10px 15px;
     text-align: center;
     font-size: 18px;
     transition: all .25s;
