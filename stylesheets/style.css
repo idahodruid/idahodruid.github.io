@@ -3,7 +3,8 @@ body {
     
 }
 body {
-    background: linear-gradient(to right top, rgb(211,211,211), white 70%);
+    color: black;
+   /* background: linear-gradient(to right top, rgb(211,211,211), white 70%);*/
     background-attachment: fixed; /*edit*/
 }
 body, html {
