@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\downloads",
+    "\\fonts",
     "\\html",
+    "\\images",
     "\\stylesheets"
   ],
-  "SelectedNode": "\\html\\papers.html",
+  "SelectedNode": "\\fonts",
   "PreviewInSolutionExplorer": false
 }

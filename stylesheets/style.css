@@ -1,9 +1,26 @@
 ﻿
 
-html, body{
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: Lato, sans-serif ;
+    color:#777;
+}
+
+html, body{
     margin:0;
     padding:0;
+}
+
+.nav ul{
+    margin: 0;
 }
 
 .main-header{
@@ -11,4 +28,5 @@ html, body{
     background-image: url("../images/IMG_3063.jpg");
     background-size: cover;
     background-blend-mode: multiply;
+    padding-bottom: 30px;
 }
