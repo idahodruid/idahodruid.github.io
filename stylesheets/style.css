@@ -4,14 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+@font-face{
 
+}
 
 
 
 *{
     box-sizing: border-box;
     font-family: Lato, sans-serif ;
-    color:#777;
+    color: rgb(245, 245, 245);/*#777;*/
 }
 
 
@@ -58,4 +60,5 @@ html, body{
     text-align: center;
     margin:0;
     font-size: 4em;
+    font-family:Lato;
 }
