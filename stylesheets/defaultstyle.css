@@ -1,0 +1,135 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+    font-family: "cascadia-webfont";
+    src: url("/fonts/cascadia-webfont.woff") format('woff'), url("/fonts/cascadia-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    color: #777;
+    margin: 0;
+    padding: 0;
+}
+
+#content-wrap {
+    padding-bottom: 120px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav li {
+    padding: 0 3%;
+}
+
+.nav a:hover {
+    background-color: rgba(255,255,255,.3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.main-header {
+    margin: 0;
+    background-color: black;
+    /*background-image: url("../images/IMG_3063.jpg");*/
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+    position:fixed;
+    top:0;
+}
+
+.name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Lato;
+    font-weight: normal;
+    color: lightgray;
+}
+
+.content-section {
+    margin: 1em;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    position: relative;
+}
+
+.section-header {
+    font-family: Arial;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-me-image {
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.main-footer {
+    background-color: black;
+    color: lightgray;
+    padding: .25em 0;
+    font-size: .5em;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -4px 4px 2px rgb(50,50,50);
+}
+
+.main-footer-container {
+    align-items: center;
+}
+
+    .main-footer-container ul {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+}
