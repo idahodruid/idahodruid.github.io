@@ -88,5 +88,38 @@ html, body{
 }
 .section-header{
     font-family: Arial;
+    color:#333;
+    text-align:center;
+    font-size: 2.5em;
+}
+.about-me-image{
+    float:left;
+    margin:15px;
+    border-radius:50%;
+    height:300px;
+    width:300px;
+}
+.main-footer {
+    background-color:rgba(0,0,0,.8);
+    color:lightgray;
+    padding:.25em 0;
+    font-size:.5em;
+    margin:0;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.main-footer-container{
+    align-items:center;
 
+}
+.main-footer-container ul{
+    flex-grow:1;
+    text-align:center;
+}
+.footer-nav li{
+    padding:0 .5em;
+}
+.footer-nav img{
+   
 }
