@@ -24,7 +24,9 @@
 
 }
 
-
+#content-wrap{
+    padding-bottom:100px;
+}
 html, body{
    
     margin:0;
@@ -62,7 +64,7 @@ html, body{
 
 .main-header {
     margin: 0;
-    background-color: rgba(0,0,0,.8);
+    background-color: black;
     /*background-image: url("../images/IMG_3063.jpg");*/
     background-size: cover;
     background-blend-mode: multiply;
@@ -85,6 +87,7 @@ html, body{
     max-width: 900px;
     margin:0 auto;
     padding: 0 1.5em;
+    position:relative;
 }
 .section-header{
     font-family: Arial;
@@ -100,14 +103,16 @@ html, body{
     width:300px;
 }
 .main-footer {
-    background-color:rgba(0,0,0,.8);
-    color:lightgray;
-    padding:.25em 0;
-    font-size:.5em;
-    margin:0;
-    position:absolute;
-    bottom:0;
-    width:100%;
+    background-color: black;
+    color: lightgray;
+    padding: .25em 0;
+    font-size: .5em;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -4px 4px 2px rgb(50,50,50);
+
 }
 .main-footer-container{
     align-items:center;
