@@ -1,7 +1,7 @@
 
 
 
-@ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @font-face {
     font-family: "cascadia-webfont";
@@ -22,6 +22,7 @@
 
 #content-wrap {
     padding-bottom: 120px;
+    padding-top: 35px;
 }
 
 html, body {
@@ -99,7 +100,8 @@ html, body {
     font-family: Arial;
     color: #333;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
+    padding-top: 75px;
 }
 
 .about-me-image {
@@ -136,4 +138,19 @@ html, body {
 }
 
 .footer-nav img {
+}
+
+hr.divider {
+    height: 3px;
+    background-color: rgb(50,50,50);
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 13em;
+    margin-right: 13em;
+    border: none;
+}
+
+hr {
+    color: rgb(50,50,50);
+    background: rgb(50,50,50);
 }
