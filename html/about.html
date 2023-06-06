@@ -14,6 +14,19 @@
 </head>
 
 <body>
+
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="../">HOME</a></li>
+                <li><a href="about">ABOUT</a></li>
+                <li><a href="code">CODE</a></li>
+                <li><a href="media">PROJECTS</a></li>
+                <li><a href="contact">CONTACT</a></li>
+                <li><a href="papers">PAPERS</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="background">
         <div class="text">
             <h1 class="blinker">&nbsp;About me</h1>
@@ -79,42 +92,33 @@
             <br /><br /><br />
             </p>
 
-         
 
-        <footer>
-            <div class="footer">
-                <div class="inner-footer">
-                    <div class="social-links">
-                        <ul>
-                            <li class="social-items"><a href="https://github.com/idahodruid"><i class="fa-brands fa-github"></i></a></li>
-                            <li class="social-items"><a href="https://www.linkedin.com/in/rowan-murphy-722a06192/"><i class="fa-brands fa-linkedin"></i></a></li>
-                            <li class="social-items"><a href="https://www.instagram.com/kenibenj/"><i class="fa-brands fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
 
-                    <div class="quick-links">
-                        <ul>
-                            <li class="quick-items"><a href="../"><p>home</p></a></li>
-                            <li class="quick-items-current"><a href="about"><p>about me</p></a></li>
-                            <li class="quick-items"><a href="code"><p>code</p></a></li>
-                            <li class="quick-items"><a href="papers"><p>papers</p></a></li>
-                            <li class="quick-items"><a href="media"><p>media</p></a></li>
-                            <li class="quick-items"><a href="contact"><p>contact</p></a></li>
-                        </ul>
-                    </div>
+            <footer class="main-footer">
+                <div class="container main-footer-container">
+                    <h3 class="name"> Social Links:</h3>
+                    <ul class="nav footer-nav">
+                        <li>
+                            <a href="https://github.com/idahodruid" target="_blank">
+                                <img src="images/github-mark.png" width="35" height="35">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rowan-murphy-722a06192/" target="_blank">
+                                <img src="images/Li.png" width="40" height="35">
+                            </a>
+                        </li>
+
+
+                    </ul>
                 </div>
+            </footer>
 
-                <div class="outer-footer">
-                    &copy; Rowan-Murphy.com • 2023
-                </div>
+            <div class="loader">
             </div>
-        </footer>
-
-        <div class="loader">
+            <script>
+                $(window).on("load", function () { $(".loader").fadeOut("fast"); });
+            </script>
         </div>
-        <script>
-            $(window).on("load", function () { $(".loader").fadeOut("fast"); });
-        </script>
-    </div>
 </body>
 </html>
