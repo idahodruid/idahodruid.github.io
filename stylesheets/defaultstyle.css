@@ -177,3 +177,243 @@ hr {
     color: rgb(50,50,50);
     background: rgb(50,50,50);
 }
+
+#slider {
+    display: block;
+    overflow: hidden;
+    width: 330px;
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    border: 4px solid black;
+    border-color: black;
+    border-radius: 10px;
+    background: black;
+}
+
+#slider2 {
+    display: block;
+    overflow: hidden;
+    width: 450px;
+    margin-right: 20px;
+    position: relative;
+    border: 4px solid black;
+    border-color: black;
+    border-radius: 10px;
+    background: black;
+}
+
+#slider3 {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin-right: 20px;
+    position: relative;
+    border: 4px solid black;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+    background: black;
+}
+
+#slider4 {
+    display: block;
+    overflow: hidden;
+    width: 450px;
+    margin-right: 20px;
+    position: relative;
+    border: 4px solid black;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+    background: black;
+}
+
+    #slider figure, #slider2 figure, #slider3 figure, #slider4 figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+    }
+
+#slider .fivePic, #slider2 .fivePic {
+    animation: 40s slider ease infinite;
+}
+
+#slider .fourPic, #slider2 .fourPic, #slider3 .fourPic {
+    animation: 40s sliderTwo ease infinite;
+}
+
+#slider3 .twoPic {
+    animation: 10s sliderThree ease infinite;
+}
+
+#slider4 .twoPic {
+    animation: 8s sliderThree ease infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+#slider2 figure img {
+    width: 20%;
+    float: left;
+}
+
+#slider3 figure img {
+    width: 20%;
+    float: left;
+}
+
+#slider4 figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    8.33% {
+        left: 0;
+    }
+
+    12.49% {
+        left: -100%;
+    }
+
+    20.82% {
+        left: -100%;
+    }
+
+    25% {
+        left: -200%;
+    }
+
+    33.33% {
+        left: -200%;
+    }
+
+    37.49% {
+        left: -300%;
+    }
+
+    45.82% {
+        left: -300%;
+    }
+
+    50% {
+        left: -400%;
+    }
+
+    58.33% {
+        left: -400%;
+    }
+
+    62.49% {
+        left: -300%;
+    }
+
+    70.82% {
+        left: -300%;
+    }
+
+    75% {
+        left: -200%;
+    }
+
+    83.31% {
+        left: -200%;
+    }
+
+    87.47% {
+        left: -100%;
+    }
+
+    95.8% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes sliderTwo {
+    0% {
+        left: 0;
+    }
+
+    11.11% {
+        left: 0;
+    }
+
+    16.66% {
+        left: -100%;
+    }
+
+    27.77% {
+        left: -100%;
+    }
+
+    33.27% {
+        left: -200%;
+    }
+
+    44.38% {
+        left: -200%;
+    }
+
+    50% {
+        left: -300%;
+    }
+
+    61.11% {
+        left: -300%;
+    }
+
+    66.66% {
+        left: -200%;
+    }
+
+    77.77% {
+        left: -200%;
+    }
+
+    83.32% {
+        left: -100%;
+    }
+
+    94.43% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes sliderThree {
+    0% {
+        left: 0;
+    }
+
+    33.33% {
+        left: 0;
+    }
+
+    50% {
+        left: -100%;
+    }
+
+    83.33% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
