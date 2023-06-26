@@ -84,6 +84,19 @@ html, body {
     width: 100%;
     box-shadow: 0px -4px 4px 2px rgb(50,50,50);
 }
+.images {
+    float: left;
+    display: inline !important;
+}
+
+.images2 {
+    float: right;
+    display: inline !important;
+}
+
+.images3 {
+}
+
 
 .name {
     text-align: center;
